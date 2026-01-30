@@ -35,9 +35,9 @@ No cloud APIs. No paid services. No hallucinations. **Just accurate, grounded an
 
 ✅ **Multiple Interfaces**
 - Interactive CLI mode
-- Python API
-- REST API (FastAPI)
-- Web UI (Streamlit)
+- Web UI with Streamlit 🎨
+- Python API for integration
+- Batch processing mode
 
 ✅ **Easy Knowledge Base Management**
 - Supports multiple formats: PDF, DOCX, TXT, JSON, MD
@@ -62,17 +62,24 @@ cd customer-support-chatbot
 # 2. Install Python dependencies
 pip install -r requirements.txt
 
-# 3. Download Ollama (one-time)
+# 3. Install Streamlit for Web UI (optional)
+pip install streamlit
+
+# 4. Download Ollama (one-time)
 # Visit https://ollama.ai and install
 
-# 4. Start Ollama server (keep running)
+# 5. Start Ollama server (keep running)
 ollama serve
 
-# 5. Pull a language model (one-time, ~4GB download)
+# 6. Pull a language model (one-time, ~4GB download)
 ollama pull mistral
 
-# 6. Run the chatbot!
+# 7. Run the chatbot!
+# Option A: CLI interface
 python src/app.py
+
+# Option B: Web UI (Streamlit)
+streamlit run streamlit_app.py
 ```
 
 That's it! You'll see an interactive chat interface. 
