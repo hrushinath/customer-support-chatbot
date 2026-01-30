@@ -1,0 +1,48 @@
+## Python Dependencies for Customer Support Chatbot
+
+# Core Dependencies
+sentence-transformers>=2.2.0          # Semantic embeddings
+faiss-cpu>=1.7.4                      # Vector database (use faiss-gpu if you have NVIDIA GPU)
+numpy>=1.21.0                         # Numerical computing
+
+# Document Processing
+PyPDF2>=3.0.0                         # PDF file handling
+python-docx>=0.8.11                   # Word document handling
+
+# LLM Integration
+requests>=2.28.0                      # HTTP requests to Ollama
+
+# Optional: For ChromaDB support
+# chromadb>=0.3.21                    # Alternative vector database
+
+# Streamlit Web Interface
+streamlit>=1.28.0                     # Web UI framework
+
+# Optional: For FastAPI web interface
+# fastapi>=0.95.0                     # Web API framework
+# uvicorn>=0.21.0                     # ASGI server
+# pydantic>=1.10.0                    # Data validation
+
+# Optional: For Streamlit UI
+# streamlit>=1.20.0                   # Web UI framework
+# streamlit-chat>=0.0.1               # Chat UI components
+
+# Development Dependencies (optional)
+# pytest>=7.0.0                       # Testing framework
+# black>=22.0.0                       # Code formatter
+# flake8>=4.0.0                       # Code linter
+# mypy>=0.990                         # Type checking
+
+# Note on GPU Support:
+# If you have an NVIDIA GPU with CUDA:
+#   - Replace "faiss-cpu" with "faiss-gpu"
+#   - Install CUDA: https://developer.nvidia.com/cuda-downloads
+#   - Install cuDNN: https://developer.nvidia.com/cudnn
+#   - Set CUDA_HOME environment variable
+
+# Note on Ollama:
+# Download and install from https://ollama.ai
+# Then pull your desired model:
+#   ollama pull mistral
+#   ollama pull llama2
+#   ollama pull neural-chat

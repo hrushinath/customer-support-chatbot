@@ -1,0 +1,36 @@
+{
+  "faqs": [
+    {
+      "question": "What is your return policy?",
+      "answer": "We accept returns within 30 days of purchase. The item must be in its original condition with all tags attached. You'll need a receipt or proof of purchase. Simply visit our returns center to initiate the return process. Refunds are processed within 5-7 business days."
+    },
+    {
+      "question": "How long does shipping take?",
+      "answer": "Shipping times depend on your chosen method:\n\n- Standard Shipping (5-7 business days): Free for orders over $50\n- Express Shipping (2-3 business days): $9.99\n- Overnight Shipping (1 business day): $24.99\n\nPlease note that these timeframes are estimates and may be affected by holidays or weather conditions."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major payment methods:\n\n- Credit Cards: Visa, Mastercard, American Express, Discover\n- Digital Wallets: Apple Pay, Google Pay, PayPal\n- Installment Plans: Afterpay (4 interest-free payments), Klarna (flexible payment options)\n- Bank Transfers available for corporate accounts\n\nAll transactions are secured with SSL encryption."
+    },
+    {
+      "question": "How do I track my order?",
+      "answer": "Once your order ships, you'll receive a tracking number via email. You can use this number to track your package on our website or directly on the carrier's website. Click the 'Track Order' button in your account dashboard to get real-time updates on your delivery status."
+    },
+    {
+      "question": "Do you offer international shipping?",
+      "answer": "Yes! We ship to over 180 countries worldwide. International shipping costs and times vary by destination. During checkout, you'll see the exact shipping cost for your location. Most international orders arrive within 10-21 business days. Duties and taxes may apply depending on your country."
+    },
+    {
+      "question": "What is your warranty policy?",
+      "answer": "All products come with a 1-year manufacturer's warranty covering defects in materials and workmanship. This does not cover accidental damage, normal wear, or misuse. For warranty claims, contact our support team with proof of purchase. We'll either repair or replace your item at no cost."
+    },
+    {
+      "question": "How can I contact customer support?",
+      "answer": "You can reach our customer support team through multiple channels:\n\n- Email: support@company.com (24-hour response time)\n- Phone: 1-800-123-4567 (Mon-Fri, 9am-6pm EST)\n- Live Chat: Available on our website (Mon-Fri, 10am-8pm EST)\n- Social Media: @companyname on Instagram, Facebook, and Twitter\n\nWe're here to help with any questions or concerns!"
+    },
+    {
+      "question": "Are your products eco-friendly?",
+      "answer": "Yes, sustainability is important to us. Our products are made using:\n\n- Recycled and recyclable materials where possible\n- Sustainable manufacturing processes\n- Eco-friendly packaging (all packaging is recyclable or compostable)\n- Partnerships with certified sustainable suppliers\n\nWe're committed to reducing our environmental impact and offer carbon-neutral shipping options."
+    }
+  ]
+}

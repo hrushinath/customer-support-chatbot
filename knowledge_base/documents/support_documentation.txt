@@ -1,0 +1,132 @@
+PRODUCT WARRANTY AND SUPPORT DOCUMENTATION
+
+Product: Premium Customer Support Chatbot System
+Version: 1.0
+Last Updated: 2024
+
+=== WARRANTY INFORMATION ===
+
+Hardware Warranty:
+- Coverage Period: 12 months from purchase date
+- Coverage: Manufacturing defects, hardware failures
+- Exclusions: Accidental damage, misuse, unauthorized repairs
+- Claim Process: Contact support with proof of purchase and description of issue
+
+Software Warranty:
+- We guarantee the software will perform according to specifications
+- If the chatbot fails to initialize properly, we provide:
+  1. Free technical support to diagnose the issue
+  2. Replacement license if the issue cannot be resolved
+  3. Full refund if you're unsatisfied within 30 days
+
+Performance Warranty:
+- The system is guaranteed to process queries and return responses
+- Minimum performance metrics:
+  - Query response time: < 5 seconds
+  - System uptime: 99.5%
+  - Accuracy on sample knowledge base: > 90%
+
+=== TECHNICAL SUPPORT ===
+
+Support Channels:
+1. Email: support@company.com
+2. Phone: 1-800-SUPPORT (1-800-787-7678)
+3. Online Help Portal: https://help.company.com
+4. Community Forum: https://community.company.com
+
+Support Hours:
+- Monday-Friday: 9:00 AM - 6:00 PM (EST)
+- Saturday: 10:00 AM - 4:00 PM (EST)
+- Sunday: Closed (automated support available)
+- Emergency support available 24/7 for critical issues
+
+=== TROUBLESHOOTING GUIDE ===
+
+Common Issues and Solutions:
+
+1. Chatbot won't initialize
+   - Ensure Ollama is running: `ollama serve`
+   - Check model is pulled: `ollama pull mistral`
+   - Verify Python dependencies: `pip install -r requirements.txt`
+   - Check port 11434 is not blocked
+
+2. Out of memory errors
+   - Switch to smaller model (e.g., phi instead of mistral)
+   - Reduce embedding batch size in config
+   - Close other applications
+
+3. Slow response times
+   - Check CPU usage - ensure no other heavy processes
+   - Consider quantized model: `ollama pull mistral:7b-instruct-q4_0`
+   - Reduce chunk context size in config
+
+4. Inaccurate answers
+   - Check knowledge base documents are loaded correctly
+   - Verify document formatting
+   - Increase top_k chunks in config
+   - Review RAG prompt in config.py
+
+5. Vector database corruption
+   - Delete vector_store folder
+   - Restart application to rebuild index
+   - All knowledge will be rebuilt from source documents
+
+=== OPTIMIZATION TIPS ===
+
+For faster performance:
+- Use quantized model versions
+- Reduce embedding batch size
+- Disable source attribution if not needed
+- Use CPU acceleration with proper processor
+
+For better accuracy:
+- Increase top_k to 10-15
+- Lower relevance threshold to 0.3
+- Add more specific documents to knowledge base
+- Fine-tune RAG prompt for your use case
+
+For lower memory usage:
+- Use smaller embedding model
+- Use smaller LLM (Phi-3 over Mistral 7B)
+- Limit vector store size
+- Reduce batch sizes
+
+=== UPDATES AND PATCHES ===
+
+We regularly release updates to improve performance and accuracy.
+To update:
+1. Backup your knowledge_base and vector_store folders
+2. Download latest version
+3. Run: python src/app.py (it will rebuild indexes)
+
+Release notes and updates available at: https://github.com/company/chatbot
+
+=== DATA AND PRIVACY ===
+
+Your Data:
+- All data stays on your local machine
+- No data is sent to external servers
+- Knowledge base files remain in your control
+- Vector indexes stored locally
+
+Privacy:
+- No telemetry or usage tracking
+- No user behavior analysis
+- No data collection
+- Completely private inference
+
+=== LICENSE ===
+
+This software is provided under the MIT License.
+See LICENSE.txt for details.
+
+=== SUPPORT CONTACT ===
+
+For any additional support needs, please contact:
+
+Email: support@company.com
+Phone: 1-800-SUPPORT
+Web: https://support.company.com
+Hours: Monday-Friday, 9 AM - 6 PM EST
+
+We're here to help!
