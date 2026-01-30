@@ -88,6 +88,11 @@ That's it! You'll see an interactive chat interface.
 - "What is your return policy?"
 - "How long does shipping take?"
 - "Do you ship internationally?"
+- "What payment methods do you accept?"
+- "How do I track my order?"
+- "What is your warranty policy?"
+- "How can I contact customer support?"
+- "Are your products eco-friendly?"
 
 ---
 
